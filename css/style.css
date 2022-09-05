@@ -22,6 +22,18 @@ html{
     background-color: rgb(255,192,203);
     border: 1px dashed black;
 }
+.sectioncontent{
+    width: 100%;
+    height: 500px;
+}
+.wrapper{
+    display: flex;
+    margin: 0 auto ;
+    width: 70%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
 /* HEADER */
 .wrapperheader{
     display: flex;
@@ -58,18 +70,8 @@ ul{
 /* Main */
 
 /* FirstSection */
-.firstsection{
-    width: 100%;
+.first{
     background-color: rgb(0,0,138) ;
-    height: 500px;
-}
-.wrapperfirstsection{
-    display: flex;
-    margin: 0 auto ;
-    width: 70%;
-    height: 500px;
-    justify-content: center;
-    align-items: center;
 }
 .jumbotron{
     border: 1px dashed black;
@@ -79,64 +81,24 @@ ul{
 }
 
 /* SecondSection */
-.secondsection{
-    width: 100%;
+.second{
     background-color: white;
-    height: 500px;
-}
-.wrappersecondsection{
-    display: flex;
-    margin: 0 auto ;
-    width: 70%;
-    height: 500px;
-    justify-content: center;
-    align-items: center;
 }
 
 /* ThirdSection */
-.thirdsection{
-    width: 100%;
+.third{
     background-color:rgb(211,211,211);
-    height: 500px;
-}
-.wrapperthirdsection{
-    display: flex;
-    margin: 0 auto ;
-    width: 70%;
-    height: 500px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row-reverse;
 }
 
 /* FourthSection */
-.fourthsection{
-    width: 100%;
+.fourth{
     background-color:white;
-    height: 500px;
-}
-.wrapperfourthsection{
-    display: flex;
-    margin: 0 auto ;
-    width: 70%;
-    height: 500px;
-    justify-content: center;
-    align-items: center;
 }
 
 /* FifthSection */
-.fifthsection{
-    width: 100%;
+.fifth{
+    height: 800px;
     background-color:rgb(211,211,211);
-    height: 800px;
-}
-.wrapperfifthsection{
-    display: flex;
-    margin: 0 auto ;
-    width: 70%;
-    height: 800px;
-    justify-content: center;
-    align-items: center;
 }
 .contentbig{
     height: 700px;
@@ -181,18 +143,9 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
-.footerlogo{
+.bottonfooter{
     width: 10%;
     height: 40px;
     background-color: grey;
     border: 1px dashed black;
 }
-.footerregistrati{
-    width: 10%;
-    height: 40px;
-    background-color: grey;
-    border: 1px dashed black;
-}
-
-
-
