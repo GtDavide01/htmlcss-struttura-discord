@@ -144,3 +144,55 @@ ul{
     background-color: rgb(34,139,34);
     border: 1px dashed black;
 }
+
+/* Footer */
+footer{
+    height: 630px;
+    background-color: rgb(35,39,42);
+}
+.wrapperinfo{
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    height: 60%;
+    margin-bottom: 160px;
+}
+.info{
+    margin-top: 5px;
+    height: 500px;
+    width: 15%;
+    background-color: rgb(32, 178, 170);
+    border: 1px dashed black ;
+}
+.infosocial{
+    margin-top: 5px;
+    height: 500px;
+    flex-grow: 2;
+    background-color: rgb(240, 128, 128);
+    border: 1px dashed black ;
+}
+.footernav{
+    width: 70%;
+    height: 65px;
+    background-color: aqua;
+    margin : 0 auto ;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerlogo{
+    width: 10%;
+    height: 40px;
+    background-color: grey;
+    border: 1px dashed black;
+}
+.footerregistrati{
+    width: 10%;
+    height: 40px;
+    background-color: grey;
+    border: 1px dashed black;
+}
+
+
+
