@@ -4,17 +4,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* HTML */
+html{
+    font-family: 'Whitney';
+}
 
 /* COMMON */
-.container{
+.contentimg{
+    height: 400px;
+    width: 60%;
+    background-color: rgb(30,144,255);
+    border: 1px dashed black;
+}
+.contenttext{
+    height: 400px;
+    width: 40%;
+    background-color: rgb(255,192,203);
+    border: 1px dashed black;
+}
+/* HEADER */
+.wrapperheader{
     display: flex;
     margin: 0 auto;
     width: 70%;
+    height: 100%;
 }
-
-/* HEADER */
 header{
-    height: 70px;
+    height: 80px;
     background-color: rgb(118, 206, 235) ;
 }
 .conthead{
@@ -29,4 +45,102 @@ header{
     text-align: center;
     flex-grow: 2;
 }
+ul{
+    display: flex;
+    justify-content: center;
+}
+.link li{
+    list-style-type: none;
+    padding-left: 10px;
+}
 /* /HEADER */
+
+/* Main */
+
+/* FirstSection */
+.firstsection{
+    width: 100%;
+    background-color: rgb(0,0,138) ;
+    height: 500px;
+}
+.wrapperfirstsection{
+    display: flex;
+    margin: 0 auto ;
+    width: 70%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.jumbotron{
+    border: 1px dashed black;
+    background-color: rgb(238,130,238);
+    height: 400px;
+    width: 80%;
+}
+
+/* SecondSection */
+.secondsection{
+    width: 100%;
+    background-color: white;
+    height: 500px;
+}
+.wrappersecondsection{
+    display: flex;
+    margin: 0 auto ;
+    width: 70%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ThirdSection */
+.thirdsection{
+    width: 100%;
+    background-color:rgb(211,211,211);
+    height: 500px;
+}
+.wrapperthirdsection{
+    display: flex;
+    margin: 0 auto ;
+    width: 70%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+/* FourthSection */
+.fourthsection{
+    width: 100%;
+    background-color:white;
+    height: 500px;
+}
+.wrapperfourthsection{
+    display: flex;
+    margin: 0 auto ;
+    width: 70%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FifthSection */
+.fifthsection{
+    width: 100%;
+    background-color:rgb(211,211,211);
+    height: 800px;
+}
+.wrapperfifthsection{
+    display: flex;
+    margin: 0 auto ;
+    width: 70%;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+}
+.contentbig{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(34,139,34);
+    border: 1px dashed black;
+}
