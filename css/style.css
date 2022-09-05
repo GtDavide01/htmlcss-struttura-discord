@@ -4,3 +4,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+.container{
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+}
+
+/* HEADER */
+header{
+    height: 70px;
+    background-color: rgb(118, 206, 235) ;
+}
+.conthead{
+    width: 20%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(218,165,32);
+    border: 2px dashed black ;
+    line-height: 40px;
+}
+.link{
+    text-align: center;
+    flex-grow: 2;
+}
+/* /HEADER */
