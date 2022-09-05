@@ -6,33 +6,51 @@
 }
 /* HTML */
 html{
-    font-family: 'Whitney';
+    font-family: 'Roboto' , sans-serif;
 }
 
 /* COMMON */
+.flex{
+    display: flex;
+}
 .contentimg{
     height: 400px;
     width: 60%;
-    background-color: rgb(30,144,255);
-    border: 1px dashed black;
+    justify-content: center;
+    align-items: center;
+    
 }
 .contenttext{
     height: 400px;
     width: 40%;
-    background-color: rgb(255,192,203);
-    border: 1px dashed black;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+ h1{
+    font-size: 3rem;
+}
+ p{
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-weight: lighter;
 }
 .sectioncontent{
     width: 100%;
-    height: 500px;
+    height: 600px;
 }
 .wrapper{
     display: flex;
     margin: 0 auto ;
     width: 70%;
-    height: 500px;
+    height: 600px;
     justify-content: center;
     align-items: center;
+}
+button{
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
 }
 /* HEADER */
 .wrapperheader{
@@ -43,27 +61,30 @@ html{
 }
 header{
     height: 80px;
-    background-color: rgb(118, 206, 235) ;
+    background-color: rgb(37,94,233,1) ;
 }
 .conthead{
     width: 20%;
     margin-top: 15px;
     margin-bottom: 15px;
-    background-color: rgb(218,165,32);
-    border: 2px dashed black ;
     line-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .link{
     text-align: center;
     flex-grow: 2;
 }
-ul{
+.conthead ul{
     display: flex;
     justify-content: center;
 }
 .link li{
     list-style-type: none;
-    padding-left: 10px;
+    padding-left: 20px;
+    color: white;
+    font-size: 1.rem;
 }
 /* /HEADER */
 
@@ -71,13 +92,35 @@ ul{
 
 /* FirstSection */
 .first{
-    background-color: rgb(0,0,138) ;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
 }
 .jumbotron{
-    border: 1px dashed black;
-    background-color: rgb(238,130,238);
     height: 400px;
     width: 80%;
+    text-align: center;
+    color: white;
+}
+.jumbotron h1{
+    margin-top: 80px;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+.jumbotron p{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+#browser{
+    color: white;
+    background-color: black ;
+    font-size: 1.3rem;
+    line-height: 30px;
+}
+#scarica{
+    font-size: 1.2rem;
+    line-height: 30px;
 }
 
 /* SecondSection */
@@ -105,6 +148,8 @@ ul{
     width: 100%;
     background-color: rgb(34,139,34);
     border: 1px dashed black;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Footer */
@@ -122,21 +167,14 @@ footer{
 .info{
     margin-top: 5px;
     height: 500px;
-    width: 15%;
-    background-color: rgb(32, 178, 170);
-    border: 1px dashed black ;
+    width: 18%;
 }
-.infosocial{
-    margin-top: 5px;
-    height: 500px;
+.social{
     flex-grow: 2;
-    background-color: rgb(240, 128, 128);
-    border: 1px dashed black ;
 }
 .footernav{
     width: 70%;
     height: 65px;
-    background-color: aqua;
     margin : 0 auto ;
     margin-top: 25px;
     display: flex;
@@ -144,8 +182,50 @@ footer{
     align-items: center;
 }
 .bottonfooter{
+    justify-content: end;
     width: 10%;
     height: 40px;
-    background-color: grey;
-    border: 1px dashed black;
 }
+.wrapperinfo h2{
+    margin-top: 50px;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: rgb(113,137,218);
+}
+
+
+.info img{
+    vertical-align: middle;
+    height: 30px;
+    width: 50px;
+}
+.info span{
+    vertical-align: middle;
+    color: white;
+}
+.info i{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: white;
+    margin-right: 10px;
+}
+
+.info ul{
+    color: rgb(113,137,218);
+    margin-top: 50px;
+}
+.info li{
+    list-style-type: none;
+    color: white;
+    margin-top: 20px;
+}
+footer hr{
+    color: rgb(113,137,218);
+    width: 70%;
+    margin: 0 auto;
+}
+#registrati{
+    color: white;
+    background-color: rgb(113,137,218);
+}
+
