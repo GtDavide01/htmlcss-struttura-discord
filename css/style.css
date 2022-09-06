@@ -144,10 +144,10 @@ header{
     background-color:rgb(211,211,211);
 }
 .contentbig{
+    display: flex;
+    flex-direction: column;
     height: 700px;
     width: 100%;
-    background-color: rgb(34,139,34);
-    border: 1px dashed black;
     justify-content: center;
     align-items: center;
 }
@@ -220,7 +220,7 @@ footer{
     margin-top: 20px;
 }
 footer hr{
-    color: rgb(113,137,218);
+    background-color: rgb(113,137,218);
     width: 70%;
     margin: 0 auto;
 }
@@ -228,4 +228,7 @@ footer hr{
     color: white;
     background-color: rgb(113,137,218);
 }
-
+.title{
+    width: 80%;
+    height: 50px;
+}
